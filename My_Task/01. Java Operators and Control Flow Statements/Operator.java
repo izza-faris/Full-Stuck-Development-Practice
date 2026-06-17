@@ -1,11 +1,22 @@
-public class Operator {
-    public static void main(String[] args) {
+ 
+ import java.util.Scanner;
 
-        int a = 20;
-        int b = 15;
 
-        int largest = (a > b) ? a : b;
+   public class Operator{
 
-        System.out.println("Largest = " + largest);
-    }
+public static void main(String[]args){
+
+  Scanner izza = new Scanner(System.in);
+  System.out.println("Enter two numbers: ");
+   int a = izza.nextInt();
+   int b = izza.nextInt();
+   System.out.println("The sum is: " + (a + b));
+   System.out.println("The Difference is: " + (a - b));
+   System.out.println("The Product is: " + (a * b));
+   System.out.println("The Quotient is: " + (a / b));
+
+   izza.close();
 }
+   } 
+    
+
