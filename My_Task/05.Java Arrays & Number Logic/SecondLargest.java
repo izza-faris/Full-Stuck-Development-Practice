@@ -1,7 +1,7 @@
 public class SecondLargest {
     public static void main(String[] args){
 
-        int [] arr ={45,36,56,89,91};
+        int [] arr ={44,36,57,89,96};
 
         int largest=arr[0];
         int secondlargest =arr [0];
