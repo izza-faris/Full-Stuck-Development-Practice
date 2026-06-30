@@ -18,6 +18,7 @@ public class ThrowAge {
             System.out.println("Exception: " + e.getMessage());
         }
 
-        input.close();
+         input.close();
     }
+   
 }
