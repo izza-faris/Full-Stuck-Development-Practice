@@ -10,15 +10,21 @@ public class ThrowAge{
         
             if (age<18) {
                 throw new IllegalArgumentException("Student age must be 18 or above.");
+            
             }
                
             System.out.println("Student is eligible");
 
         } catch (IllegalArgumentException e) {
             System.out.println("Exception: " + e.getMessage());
+
+            
+        }
+         finally {  
+            input.close();
         }
 
-         input.close();
+        
     }
    
 }
