@@ -6,7 +6,7 @@ public class BankAccount {
 
         Scanner scanner = new Scanner(System.in);
 
-        Bank account = new Bank(10001, "Izza", 3000.0);
+        Bank account = new Bank(10001, "Izza", 6000.0);
 
         System.out.println("==================================");
         System.out.println("        BANK ACCOUNT SYSTEM       ");
