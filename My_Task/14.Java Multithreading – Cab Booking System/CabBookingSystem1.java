@@ -1,4 +1,4 @@
-public class CabBookingSystem {
+public class CabBookingSystem1 {
 
     // Cab Class
     static class Cab{
@@ -13,7 +13,7 @@ public class CabBookingSystem {
                 System.out.println( customerName + " successfully booked the cab.");
                 available = false;
             } else {
-                System.out.println( customerName + " failed to book the cab. Cab is not available.");
+                System.out.println( customerName + " failed to book the cab. Cab is already booked.");
             }
             
         }
